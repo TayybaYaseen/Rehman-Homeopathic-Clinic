@@ -1,0 +1,16 @@
+# Next.js
+/.next/
+/out/
+/node_modules/
+
+# Env
+.env
+.env.local
+
+# Data (JSON appointment store — auto-created at runtime)
+data/*.json
+!data/.gitkeep
+
+# Misc
+.DS_Store
+*.log
